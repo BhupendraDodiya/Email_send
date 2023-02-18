@@ -1,0 +1,7 @@
+<form method="post" action="ho/">
+    {% csrf_token %}
+    To<input type="text" name="to" /><br>
+    Subject<input type="text" name="sub" /><br>
+    Message<textarea rows="5" cols="30" name="msg"></textarea><br>
+    <button>Send Mail</button>
+</form>
